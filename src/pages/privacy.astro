@@ -1,0 +1,63 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="Privacy Policy — Patriotometer" description="Patriotometer privacy policy. We don't collect any data.">
+  <div class="max-w-2xl mx-auto px-4 py-12">
+    <a href="/" class="text-sm hover:underline" style="color: var(--color-text-muted);">&larr; Back to quiz</a>
+
+    <h1 class="text-3xl font-bold mt-6 mb-6">Privacy Policy</h1>
+
+    <div class="space-y-6 leading-relaxed">
+      <p><strong>Effective date:</strong> February 23, 2026</p>
+
+      <h2 class="text-xl font-semibold mt-8">The short version</h2>
+
+      <p>
+        We don't collect any data. The quiz runs entirely in your browser. Your answers are never
+        transmitted anywhere.
+      </p>
+
+      <h2 class="text-xl font-semibold mt-8">What we don't collect</h2>
+
+      <ul class="list-disc pl-6 space-y-2">
+        <li>Quiz answers or results</li>
+        <li>Personal information of any kind</li>
+        <li>Cookies (we don't use them)</li>
+        <li>Analytics data about your quiz responses</li>
+        <li>IP addresses for tracking purposes</li>
+      </ul>
+
+      <h2 class="text-xl font-semibold mt-8">How the quiz works</h2>
+
+      <p>
+        All quiz logic runs client-side in your web browser using JavaScript. Your answers are stored
+        temporarily in browser memory while you take the quiz. When you close the tab or refresh the
+        page, everything is gone.
+      </p>
+
+      <h2 class="text-xl font-semibold mt-8">Image generation</h2>
+
+      <p>
+        The shareable meme image is generated locally in your browser using the Canvas API. The image
+        is created on your device and downloaded directly to your computer. No image data is sent to
+        any server.
+      </p>
+
+      <h2 class="text-xl font-semibold mt-8">Third-party services</h2>
+
+      <p>
+        This site is hosted on Netlify. Netlify may collect standard web server logs (IP address,
+        browser type, pages visited) as part of their hosting service. We do not access or use this
+        data. See <a href="https://www.netlify.com/privacy/" class="underline" style="color: var(--color-accent);" rel="noopener noreferrer" target="_blank">Netlify's privacy policy</a> for details.
+      </p>
+
+      <h2 class="text-xl font-semibold mt-8">Contact</h2>
+
+      <p>
+        Questions about this policy? Reach out via
+        <a href="https://centricle.com/contact/" class="underline" style="color: var(--color-accent);">centricle.com/contact</a>.
+      </p>
+    </div>
+  </div>
+</Base>

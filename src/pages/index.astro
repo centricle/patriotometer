@@ -1,0 +1,153 @@
+---
+import Base from '../layouts/Base.astro';
+import questions from '../../data/questions.json';
+import archetypes from '../../data/archetypes.json';
+import lenses from '../../data/lenses.json';
+---
+
+<Base title="Patriotometer — How Patriotic Are You? Depends Who's Asking.">
+  <div class="max-w-2xl mx-auto px-4 py-8">
+
+    <!-- Intro Section -->
+    <section id="intro" class="text-center py-16">
+      <h1 class="text-4xl font-bold mb-4 tracking-tight" style="color: var(--color-accent);">
+        Patriotometer
+      </h1>
+      <p class="text-xl mb-2" style="color: var(--color-text-muted);">
+        How patriotic are you?
+      </p>
+      <p class="text-2xl font-semibold mb-8">
+        Depends who's asking.
+      </p>
+      <p class="mb-8" style="color: var(--color-text-muted);">
+        15 questions. 8 archetypes. 8 lenses.<br />
+        Everyone gets roasted equally.
+      </p>
+      <button
+        id="start-btn"
+        class="px-8 py-3 rounded-lg font-semibold text-lg transition-colors cursor-pointer"
+        style="background-color: var(--color-accent); color: white;"
+      >
+        Take the Quiz
+      </button>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="hidden py-8">
+      <div class="mb-6">
+        <div class="flex justify-between text-sm mb-2" style="color: var(--color-text-muted);">
+          <span id="progress-text">Question 1 of 15</span>
+          <span id="progress-pct">0%</span>
+        </div>
+        <div class="w-full h-2 rounded-full" style="background-color: var(--color-surface);">
+          <div id="progress-bar" class="h-2 rounded-full transition-all duration-300" style="background-color: var(--color-accent); width: 0%;"></div>
+        </div>
+      </div>
+
+      <div id="question-container" class="rounded-xl p-6 mb-6" style="background-color: var(--color-surface); border: 1px solid var(--color-border);">
+        <p id="question-text" class="text-lg font-medium mb-6"></p>
+        <div class="space-y-3">
+          <input
+            id="slider"
+            type="range"
+            min="0"
+            max="100"
+            value="50"
+            class="w-full accent-[var(--color-accent)] h-2 rounded-lg cursor-pointer"
+          />
+          <div class="flex justify-between text-sm" style="color: var(--color-text-muted);">
+            <span>Strongly Disagree</span>
+            <span>Strongly Agree</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-3 justify-between">
+        <button
+          id="prev-btn"
+          class="px-6 py-2 rounded-lg font-medium transition-colors cursor-pointer"
+          style="background-color: var(--color-surface); border: 1px solid var(--color-border); color: var(--color-text-muted);"
+          disabled
+        >
+          Back
+        </button>
+        <button
+          id="next-btn"
+          class="px-6 py-2 rounded-lg font-medium transition-colors cursor-pointer"
+          style="background-color: var(--color-accent); color: white;"
+        >
+          Next
+        </button>
+      </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="hidden py-8">
+      <div class="text-center mb-8">
+        <p class="text-sm uppercase tracking-widest mb-2" style="color: var(--color-text-muted);">Your archetype</p>
+        <div id="result-icon" class="text-5xl mb-3"></div>
+        <h2 id="result-name" class="text-3xl font-bold mb-2"></h2>
+        <p id="result-tagline" class="text-lg italic" style="color: var(--color-text-muted);"></p>
+      </div>
+
+      <div class="rounded-xl p-6 mb-8" style="background-color: var(--color-surface); border: 1px solid var(--color-border);">
+        <p id="result-description" class="leading-relaxed"></p>
+      </div>
+
+      <!-- Radar Chart -->
+      <div class="rounded-xl p-6 mb-8 flex justify-center" style="background-color: var(--color-surface); border: 1px solid var(--color-border);">
+        <canvas id="radar-canvas" width="320" height="320"></canvas>
+      </div>
+
+      <!-- Lens Toggles -->
+      <div class="mb-6">
+        <p class="text-sm uppercase tracking-widest mb-3 text-center" style="color: var(--color-text-muted);">
+          How does someone else see you?
+        </p>
+        <div id="lens-buttons" class="flex flex-wrap gap-2 justify-center">
+        </div>
+      </div>
+
+      <!-- Lens Vignette -->
+      <div id="lens-vignette" class="hidden rounded-xl p-6 mb-8" style="background-color: var(--color-surface); border: 1px solid var(--color-border);">
+        <p class="text-sm uppercase tracking-widest mb-2" style="color: var(--color-text-muted);">
+          As seen by <span id="lens-label" class="font-semibold"></span>:
+        </p>
+        <p id="lens-text" class="leading-relaxed text-lg italic"></p>
+      </div>
+
+      <!-- Share -->
+      <div class="flex flex-col items-center gap-3 mb-8">
+        <button
+          id="share-btn"
+          class="px-8 py-3 rounded-lg font-semibold text-lg transition-colors cursor-pointer"
+          style="background-color: var(--color-accent); color: white;"
+        >
+          Download Your Card
+        </button>
+        <p class="text-sm" style="color: var(--color-text-muted);">
+          Generates a shareable image
+        </p>
+      </div>
+
+      <!-- Retake -->
+      <div class="text-center">
+        <button
+          id="retake-btn"
+          class="px-6 py-2 rounded-lg font-medium transition-colors cursor-pointer"
+          style="background-color: var(--color-surface); border: 1px solid var(--color-border); color: var(--color-text-muted);"
+        >
+          Retake Quiz
+        </button>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Data injection for client-side scripts -->
+  <script is:inline define:vars={{ questions, archetypes, lenses }}>
+    window.__QUIZ_DATA__ = { questions, archetypes, lenses };
+  </script>
+  <script src="../scripts/quiz.ts"></script>
+  <script src="../scripts/share.ts"></script>
+</Base>

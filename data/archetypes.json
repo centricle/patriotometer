@@ -1,0 +1,106 @@
+{
+  "constitutionalist": {
+    "name": "The Constitutionalist",
+    "tagline": "The document says what it says.",
+    "icon": "📜",
+    "description": "You treat the founding documents like a mechanic treats a factory manual — it's all in there if people would just read it. You're suspicious of anyone who wants to \"reinterpret\" what was already clearly written. Government should be small, rights should be absolute, and if the founders didn't mention it, that's probably on purpose.",
+    "axes": {
+      "economic": [0.0, 0.35],
+      "social": [0.15, 0.55],
+      "authority": [0.0, 0.3],
+      "nationalism": [0.4, 0.8],
+      "pragmatism": [0.1, 0.5]
+    }
+  },
+  "pragmatist": {
+    "name": "The Pragmatist",
+    "tagline": "Whatever works.",
+    "icon": "🔧",
+    "description": "You'd vote for a golden retriever if it could balance a budget. Ideology is for people with too much free time — you care about outcomes, not purity tests. You've been called a sellout by both sides, which you take as proof you're doing something right.",
+    "axes": {
+      "economic": [0.3, 0.7],
+      "social": [0.3, 0.7],
+      "authority": [0.3, 0.7],
+      "nationalism": [0.3, 0.7],
+      "pragmatism": [0.7, 1.0]
+    }
+  },
+  "firebrand": {
+    "name": "The Firebrand",
+    "tagline": "Burn it down and start over.",
+    "icon": "🔥",
+    "description": "You see a system that's rotten from the inside and you're not interested in polishing the furniture on a sinking ship. Revolution isn't a dirty word to you — it's the founding principle. Whether your fire burns left or right depends on the day, but it always burns.",
+    "axes": {
+      "economic": [0.0, 1.0],
+      "social": [0.0, 1.0],
+      "authority": [0.0, 0.4],
+      "nationalism": [0.0, 1.0],
+      "pragmatism": [0.0, 0.3]
+    }
+  },
+  "progressive": {
+    "name": "The Progressive",
+    "tagline": "The arc bends, but only if you push.",
+    "icon": "✊",
+    "description": "You believe the country's best days require the country to actually change. Civil rights, labor rights, environmental protection — every good thing required someone to fight the status quo. You're impatient with incrementalism and suspicious of anyone who says \"not yet.\"",
+    "axes": {
+      "economic": [0.65, 1.0],
+      "social": [0.7, 1.0],
+      "authority": [0.2, 0.6],
+      "nationalism": [0.0, 0.4],
+      "pragmatism": [0.1, 0.6]
+    }
+  },
+  "libertarian": {
+    "name": "The Libertarian",
+    "tagline": "Don't tread on anyone.",
+    "icon": "🐍",
+    "description": "Your ideal government fits in a shoebox. You think the left wants to regulate your wallet and the right wants to regulate your bedroom, and you'd prefer they both stay out of your house entirely. You didn't ask for permission and you're not going to start now.",
+    "axes": {
+      "economic": [0.0, 0.35],
+      "social": [0.5, 0.9],
+      "authority": [0.0, 0.25],
+      "nationalism": [0.1, 0.5],
+      "pragmatism": [0.2, 0.6]
+    }
+  },
+  "traditionalist": {
+    "name": "The Traditionalist",
+    "tagline": "If it ain't broke, stop fixing it.",
+    "icon": "⛪",
+    "description": "You believe civilization is a garden that took centuries to cultivate, and every generation of \"reformers\" is another kid with a lawnmower. Faith, family, and community aren't buzzwords — they're the load-bearing walls. Knock them out and the whole thing collapses.",
+    "axes": {
+      "economic": [0.2, 0.6],
+      "social": [0.0, 0.3],
+      "authority": [0.4, 0.8],
+      "nationalism": [0.6, 1.0],
+      "pragmatism": [0.2, 0.7]
+    }
+  },
+  "centrist": {
+    "name": "The Centrist",
+    "tagline": "There are fine points on both sides.",
+    "icon": "⚖️",
+    "description": "You've been called \"boring\" by people on both ends of the spectrum, which is fine because those people can't agree on lunch. You think the truth usually lives somewhere in the middle, and extremism is a luxury for people who don't have to govern anything.",
+    "axes": {
+      "economic": [0.35, 0.65],
+      "social": [0.35, 0.65],
+      "authority": [0.35, 0.65],
+      "nationalism": [0.35, 0.65],
+      "pragmatism": [0.5, 0.9]
+    }
+  },
+  "maverick": {
+    "name": "The Maverick",
+    "tagline": "I contain multitudes.",
+    "icon": "🦅",
+    "description": "You confuse political algorithms for a living. Pro-gun and pro-choice? Want single-payer healthcare but think the Department of Education should be abolished? You don't fit in a box because you actually thought about each issue instead of picking a team and running with it.",
+    "axes": {
+      "economic": [0.2, 0.8],
+      "social": [0.2, 0.8],
+      "authority": [0.1, 0.5],
+      "nationalism": [0.2, 0.8],
+      "pragmatism": [0.3, 0.8]
+    }
+  }
+}

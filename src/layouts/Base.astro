@@ -1,0 +1,50 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "How patriotic are you? Depends who's asking. Take the quiz, get your archetype, then see yourself through 8 different lenses." } = Astro.props;
+const canonical = new URL(Astro.url.pathname, 'https://patriotometer.com');
+
+import '../styles/global.css';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical.href} />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical.href} />
+  <meta property="og:site_name" content="Patriotometer" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+</head>
+<body class="min-h-screen flex flex-col">
+  <main class="flex-1">
+    <slot />
+  </main>
+  <footer class="py-6 flex justify-center">
+    <a href="https://centricle.com" title="made by ksmith" aria-label="made by ksmith">
+      <img
+        src="https://centricle.com/brand/avatar-sm.jpg"
+        alt=""
+        width="28"
+        height="28"
+        class="w-7 h-7 rounded-full"
+        loading="lazy"
+      />
+    </a>
+  </footer>
+</body>
+</html>

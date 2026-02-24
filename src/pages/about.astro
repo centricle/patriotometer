@@ -1,0 +1,67 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="About — Patriotometer" description="How the Patriotometer works, and why it exists.">
+  <div class="max-w-2xl mx-auto px-4 py-12">
+    <a href="/" class="text-sm hover:underline" style="color: var(--color-text-muted);">&larr; Back to quiz</a>
+
+    <h1 class="text-3xl font-bold mt-6 mb-6">About the Patriotometer</h1>
+
+    <div class="space-y-6 leading-relaxed">
+      <p>
+        I got tired of every political quiz sorting people into two buckets. Left or right. Red or blue.
+        As if 330 million people fit neatly into a coin flip.
+      </p>
+
+      <p>
+        The Patriotometer scores you across five axes — economic, social, authority, nationalism, and
+        pragmatism — then maps you to one of eight archetypes. None of them are flattering. All of them
+        are recognizable.
+      </p>
+
+      <p>
+        The real fun is the lenses. Once you get your result, you can see how eight different groups
+        would describe you — from your boomer uncle to a college freshman to an NPR listener.
+        Everyone gets roasted. Nobody is safe.
+      </p>
+
+      <h2 class="text-xl font-semibold mt-8">How scoring works</h2>
+
+      <p>
+        Each question maps to one of five political axes. Your slider position (0–100) is normalized,
+        then averaged per axis. The resulting five-dimensional score is compared against predefined
+        ranges for each archetype. The archetype whose range best fits your scores wins.
+      </p>
+
+      <p>
+        There's no "correct" result. The archetypes are descriptive stereotypes, not clinical assessments.
+        If you don't like your result, the problem is you, not the algorithm.
+      </p>
+
+      <h2 class="text-xl font-semibold mt-8">This is satire</h2>
+
+      <p>
+        The Patriotometer is not a political assessment tool. It's not a scientific instrument. It's a
+        mirror with a sense of humor. The vignettes are written to be sharp, funny, and equal-opportunity
+        in their mockery. If your group didn't get roasted hard enough, that's a bug — not a bias.
+      </p>
+
+      <h2 class="text-xl font-semibold mt-8">Privacy</h2>
+
+      <p>
+        The quiz runs entirely in your browser. No data is collected, stored, or transmitted. Your
+        answers never leave your device. There is no database, no analytics tracking your responses,
+        no account to create.
+        <a href="/privacy" class="underline" style="color: var(--color-accent);">Full privacy policy</a>.
+      </p>
+
+      <h2 class="text-xl font-semibold mt-8">Built by</h2>
+
+      <p>
+        Made by <a href="https://centricle.com" class="underline" style="color: var(--color-accent);">ksmith</a>.
+        No ads. No sponsored content. No data collection. Just a quiz that makes fun of everyone equally.
+      </p>
+    </div>
+  </div>
+</Base>

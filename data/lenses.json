@@ -1,0 +1,114 @@
+{
+  "progressive": {
+    "name": "a progressive",
+    "icon": "✊",
+    "vignettes": {
+      "constitutionalist": "They see you clutching a 250-year-old document like it's a religious text while the country burns around you. You'd let corporations poison rivers as long as Madison didn't specifically ban it.",
+      "pragmatist": "You're the person they almost respect — until you vote for the \"moderate\" who waters down every bill into homeopathic policy. Your centrism isn't balance, it's cowardice with a spreadsheet.",
+      "firebrand": "Honestly? They're a little jealous of your energy but terrified of your aim. You want to blow it all up and they want to rebuild it, and those aren't the same thing.",
+      "progressive": "You're in the club. They just wish you'd show up to more meetings instead of just posting about it.",
+      "libertarian": "A conservative who likes weed. That's it. That's the whole ideology. Your \"freedom\" conveniently stops at labor rights and environmental regulations.",
+      "traditionalist": "You're the reason they march. Everything you want to conserve was built on someone else's back, and your nostalgia is just privilege wearing a cardigan.",
+      "centrist": "You're the reason nothing ever changes. You see injustice and say \"well, there are two sides\" like you're moderating a debate instead of living in a society.",
+      "maverick": "You'd be an ally if you could commit to anything for longer than a news cycle. Your \"independent thinking\" is just indecision with better branding."
+    }
+  },
+  "libertarian_lens": {
+    "name": "a libertarian",
+    "icon": "🐍",
+    "vignettes": {
+      "constitutionalist": "You're close — so close — but you keep making exceptions for the military-industrial complex. The founders would be horrified by the standing army, and you know it.",
+      "pragmatist": "A technocrat who thinks the right amount of government is \"just a little more.\" You're the frog in the pot who thinks the water is a nice temperature.",
+      "firebrand": "Same energy, wrong target. You want to burn down the system and replace it with a different system. That's just arson with a building permit.",
+      "progressive": "You want freedom for everyone except people who disagree with you. Your \"liberation\" always requires a new department, a new tax, and a new list of things you can't say.",
+      "libertarian": "Welcome home. Now if we could just agree on whether roads should exist, we'd really have something.",
+      "traditionalist": "You want a small government that's somehow large enough to enforce your moral code on 330 million people. Pick a lane.",
+      "centrist": "You don't have beliefs, you have a weighted average. At least pick a hill to die on instead of dying slowly on all of them.",
+      "maverick": "Respect for the independence, but half your positions require a government program to function. You're a libertarian who hasn't finished the math."
+    }
+  },
+  "boomer_uncle": {
+    "name": "your boomer uncle",
+    "icon": "👴",
+    "vignettes": {
+      "constitutionalist": "Now here's somebody who gets it. Back in my day, we all understood what the Constitution meant. Didn't need a professor to explain it to us.",
+      "pragmatist": "You sound like my accountant. Everything's a spreadsheet with you people. Sometimes you gotta go with your gut, not your calculator.",
+      "firebrand": "Settle down. You sound like you just discovered politics yesterday. We've been through worse and we didn't need to burn anything down.",
+      "progressive": "This is what happens when you let kids run up student debt studying feelings. Try running a business for five minutes and see how progressive you stay.",
+      "libertarian": "I like the gun part and the tax part, but the rest of it sounds like you're just trying to legalize everything your mother told you not to do.",
+      "traditionalist": "Finally, someone with some sense. This country was built on hard work and church on Sunday, and nobody can convince me otherwise.",
+      "centrist": "So you don't stand for anything? At least the other side has the guts to say what they believe, even if it's wrong.",
+      "maverick": "You're all over the map, kid. One minute you're making sense, next minute you're sounding like a Berkeley sophomore. Pick a team."
+    }
+  },
+  "european": {
+    "name": "a European",
+    "icon": "🇪🇺",
+    "vignettes": {
+      "constitutionalist": "Adorable — you worship an 18th-century document the way we preserve medieval castles. Except our castles have been renovated. You're still arguing about the original plumbing.",
+      "pragmatist": "By European standards, you're a center-right moderate who thinks they're radical for suggesting maybe healthcare shouldn't bankrupt people. Welcome to 1948.",
+      "firebrand": "Americans reinventing the French Revolution every generation is endlessly entertaining. We did this already. It didn't go well. There was a lot of cheese involved.",
+      "progressive": "You'd be a completely normal center-left voter in any European country. The fact that America considers you radical says more about America than about you.",
+      "libertarian": "Ah yes, the American who thinks paying taxes is tyranny. Meanwhile, your roads have potholes and your ambulance ride costs more than a holiday in Tuscany.",
+      "traditionalist": "Which traditions? Your country is 250 years old. Our pubs are older than your constitution. Your \"heritage\" is a historical blink.",
+      "centrist": "You're what we'd call a normal person. Unfortunately, you live in a country where normal is considered a political position.",
+      "maverick": "Interesting. You've independently arrived at positions that most Europeans consider obvious but wrapped them in American exceptionalism. It's like discovering fire and patenting it."
+    }
+  },
+  "veteran": {
+    "name": "a veteran",
+    "icon": "🎖️",
+    "vignettes": {
+      "constitutionalist": "Swore an oath to defend it. You read it. Most people talking about it haven't done either. Respect the consistency, even when we disagree on the details.",
+      "pragmatist": "You think like a logistics officer — what works, what's the mission, what's the cost. Nobody in a foxhole cares about ideology. More people should think like this.",
+      "firebrand": "Lot of fire for someone who's never been shot at. Revolution sounds romantic until you're carrying your buddy to the medevac. Cool it with the war metaphors.",
+      "progressive": "Some good ideas, but you've never had to implement anything under fire. Plans that work on a whiteboard don't always survive first contact with reality.",
+      "libertarian": "I like that you value freedom — I fought for it. But some of y'all would privatize the VA and call it liberty. Read the room.",
+      "traditionalist": "You understand duty, sacrifice, and that some things are worth protecting. We don't agree on everything, but I trust your why.",
+      "centrist": "You'd make a decent officer. Calm, measured, sees all sides. Just don't let \"seeing all sides\" turn into standing still while the world moves around you.",
+      "maverick": "Independent thinker who doesn't follow the herd. Could be a great leader or a terrible one. Depends on whether you listen as well as you talk."
+    }
+  },
+  "college_freshman": {
+    "name": "a college freshman",
+    "icon": "🎓",
+    "vignettes": {
+      "constitutionalist": "So you think a document written by slave owners should dictate how we live today? Have you taken literally any history class? The founders were problematic, full stop.",
+      "pragmatist": "You're basically just a centrist who thinks they're too smart for labels. That's still a label. Also, incrementalism is just privilege in slow motion.",
+      "firebrand": "Okay this is actually based. The system IS broken. But like, what's your actual plan? \"Burn it down\" isn't a policy platform, it's a tweet.",
+      "progressive": "You're getting there but you haven't read enough theory yet. Your heart's in the right place but your analysis is still pretty surface level. Start with intersectionality.",
+      "libertarian": "Cool, so corporations should just do whatever they want? The invisible hand isn't real, bro. It's just rich people high-fiving each other.",
+      "traditionalist": "Tell me you haven't traveled without telling me you haven't traveled. \"Tradition\" is just peer pressure from dead people.",
+      "centrist": "Imagine thinking the middle ground between justice and injustice is a good place to stand. MLK literally warned about you in that letter.",
+      "maverick": "This is actually kind of interesting but it feels like you just haven't committed yet. Being contrarian isn't the same as being correct."
+    }
+  },
+  "fox_news": {
+    "name": "a Fox News viewer",
+    "icon": "📺",
+    "vignettes": {
+      "constitutionalist": "A true patriot. This is what America needs — people who understand that the Constitution isn't a living document, it's THE document. Period.",
+      "pragmatist": "Another wishy-washy moderate who can't make up their mind. You're either with us or you're part of the problem. There's no middle ground when the country's at stake.",
+      "firebrand": "Good energy but be careful — the media will use your words against you. Channel that anger into something productive. Midterms are coming.",
+      "progressive": "This is exactly what's wrong with this country. Every problem needs a new program, a new tax, a new rule. When did Americans start needing the government to do everything for them?",
+      "libertarian": "You've got the right instincts on guns and taxes but you're wrong on borders. Freedom doesn't mean open borders. A country without borders isn't a country.",
+      "traditionalist": "The backbone of this nation. While the coastal elites are redefining everything, you're holding the line on the values that actually built this country.",
+      "centrist": "You say you see both sides, but from where we're sitting, one side wants to save America and the other wants to transform it into something unrecognizable. \"Both sides\" doesn't cut it anymore.",
+      "maverick": "Can't tell if you're a secret liberal or just confused. In times like these, you need to know where you stand. The fence is getting pretty uncomfortable."
+    }
+  },
+  "npr_listener": {
+    "name": "an NPR listener",
+    "icon": "📻",
+    "vignettes": {
+      "constitutionalist": "A fascinating perspective, and one that raises important questions about originalism versus living constitutionalism. Of course, scholars on both sides— [the segment continues for 47 minutes].",
+      "pragmatist": "There's something genuinely refreshing about evidence-based thinking in an era of ideological entrenchment. A recent Brookings study actually supports this approach, though it's more nuanced than—",
+      "firebrand": "While the passion is understandable given systemic inequities, research from the Pew Foundation suggests that institutional reform, rather than wholesale disruption, tends to produce more sustainable outcomes. But we'd love to hear your perspective.",
+      "progressive": "You're clearly well-informed and deeply committed to equity. We'd love to have you on for a longer conversation about the intersection of policy and lived experience.",
+      "libertarian": "An interesting philosophy that, as economist Thomas Sowell might argue — though of course his colleagues would disagree — reveals the tension between individual liberty and collective responsibility. It's complicated.",
+      "traditionalist": "While we respect deeply held convictions, it's worth noting that many traditions we now celebrate were once considered radical departures from the status quo. History is full of these fascinating paradoxes.",
+      "centrist": "In today's polarized climate, your measured approach is — and I say this carefully — both a strength and, some would argue, a form of privilege. It's a nuanced conversation we should probably have over several segments.",
+      "maverick": "You resist easy categorization, which frankly makes for excellent radio. Would you be interested in a twelve-part series exploring the contradictions in American political identity?"
+    }
+  }
+}

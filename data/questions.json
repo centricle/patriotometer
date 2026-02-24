@@ -1,0 +1,122 @@
+[
+  {
+    "id": "q1",
+    "text": "The government should break up monopolies and regulate large corporations more aggressively.",
+    "type": "slider",
+    "axis": "economic",
+    "direction": 1,
+    "weight": 1
+  },
+  {
+    "id": "q2",
+    "text": "Free markets, left alone, produce the best outcomes for the most people.",
+    "type": "slider",
+    "axis": "economic",
+    "direction": -1,
+    "weight": 1
+  },
+  {
+    "id": "q3",
+    "text": "A universal basic income would do more good than harm.",
+    "type": "slider",
+    "axis": "economic",
+    "direction": 1,
+    "weight": 1
+  },
+  {
+    "id": "q4",
+    "text": "Marriage should only be between a man and a woman.",
+    "type": "slider",
+    "axis": "social",
+    "direction": -1,
+    "weight": 1
+  },
+  {
+    "id": "q5",
+    "text": "Society changes too fast — we need to preserve the traditions that got us here.",
+    "type": "slider",
+    "axis": "social",
+    "direction": -1,
+    "weight": 1
+  },
+  {
+    "id": "q6",
+    "text": "Systemic racism is a real and ongoing problem in America.",
+    "type": "slider",
+    "axis": "social",
+    "direction": 1,
+    "weight": 1
+  },
+  {
+    "id": "q7",
+    "text": "The government should have broad surveillance powers to prevent terrorism.",
+    "type": "slider",
+    "axis": "authority",
+    "direction": 1,
+    "weight": 1
+  },
+  {
+    "id": "q8",
+    "text": "I'd rather have a dangerous freedom than a comfortable tyranny.",
+    "type": "slider",
+    "axis": "authority",
+    "direction": -1,
+    "weight": 1
+  },
+  {
+    "id": "q9",
+    "text": "Law enforcement needs more funding and authority, not less.",
+    "type": "slider",
+    "axis": "authority",
+    "direction": 1,
+    "weight": 1
+  },
+  {
+    "id": "q10",
+    "text": "America should prioritize its own interests over international cooperation.",
+    "type": "slider",
+    "axis": "nationalism",
+    "direction": 1,
+    "weight": 1
+  },
+  {
+    "id": "q11",
+    "text": "Immigration makes America stronger.",
+    "type": "slider",
+    "axis": "nationalism",
+    "direction": -1,
+    "weight": 1
+  },
+  {
+    "id": "q12",
+    "text": "We should buy American products even if they cost more.",
+    "type": "slider",
+    "axis": "nationalism",
+    "direction": 1,
+    "weight": 1
+  },
+  {
+    "id": "q13",
+    "text": "I'd rather vote for someone I disagree with on half the issues than someone who promises everything and delivers nothing.",
+    "type": "slider",
+    "axis": "pragmatism",
+    "direction": 1,
+    "weight": 1
+  },
+  {
+    "id": "q14",
+    "text": "Compromise is just another word for surrender.",
+    "type": "slider",
+    "axis": "pragmatism",
+    "direction": -1,
+    "weight": 1
+  },
+  {
+    "id": "q15",
+    "text": "The perfect policy that never passes is worse than the flawed one that does.",
+    "type": "slider",
+    "axis": "pragmatism",
+    "direction": 1,
+    "weight": 1
+  }
+]
