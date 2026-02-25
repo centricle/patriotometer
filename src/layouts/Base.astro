@@ -25,10 +25,12 @@ import '../styles/global.css';
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonical.href} />
   <meta property="og:site_name" content="Patriotometer" />
+  <meta property="og:image" content={new URL('/og-image.jpg', 'https://patriotometer.netlify.app').href} />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={new URL('/og-image.jpg', 'https://patriotometer.netlify.app').href} />
 </head>
 <body class="min-h-screen flex flex-col">
   <main class="flex-1">
